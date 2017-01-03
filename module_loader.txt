@@ -1,0 +1,1 @@
+tsc uses require js to load modules, but the browser doesnt have one, so we will use system js

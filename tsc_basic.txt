@@ -1,0 +1,18 @@
+Install typescript
+npm i -g tsc
+
+Check version
+tsc -v
+
+Compile ts file
+tsc app.ts
+
+output 2 different file
+tsc --out bundle.js app.ts
+
+Continusly watch
+tsc --watch --out bundle.js app.ts
+
+Create config file
+tsc --init
+

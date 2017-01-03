@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trying to load using SysJs</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.41/system.js"></script>
+</head>
+<body>
+<script>
+    System.config({
+        packages : {
+            "dist" : {
+                "defaultExtensions" : "js",
+                "main" : "app"
+            }
+        }
+    });
+
+    System.import("dist");
+</script>
+</body>
+</html>
